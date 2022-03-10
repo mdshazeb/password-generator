@@ -77,3 +77,15 @@ function generate(len,upper,lower,number,symbols)
      return password.slice(0,len)
 
 }
+
+const btn1=document.querySelector('.btn1')
+
+btn1.addEventListener("click",()=>{
+    
+    //const textarea=document.createElement("textarea")
+    
+    resultEl.select()
+    alert("Password copied")
+    navigator.clipboard.writeText(resultEl.value)
+
+})

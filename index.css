@@ -1,4 +1,8 @@
-body{
+
+.btn1{
+    background-color: darkslateblue;
+}
+    body{
    background-color: rgb(90, 76, 175);
 }
 
